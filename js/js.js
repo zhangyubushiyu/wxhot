@@ -24,7 +24,7 @@ function wxhot(word) {
 		}
 	$.ajax({
 		type: "get",
-		url: "//apis.baidu.com/txapi/weixin/wxhot",
+		url: "https://apis.baidu.com/txapi/weixin/wxhot",
 		data: {
 			num: num,
 			rand: rand,
