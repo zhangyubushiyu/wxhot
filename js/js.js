@@ -12,7 +12,7 @@ search()
 function wxhot(word) {
 	var wxhotObj = {},
 		apikey = 'fcde02d9f9615cd5aa6e94aeca31cb2d',
-		num = 10,
+		num = 20,
 		rand = 1,
 		word ,
 		page = 1,
