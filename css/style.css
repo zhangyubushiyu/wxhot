@@ -1,0 +1,27 @@
+html{font-size: 14px;/*max-width: 980px*/max-width: 640px;margin:  0 auto;}
+body{margin: 0; }
+
+/*顶部*/
+#top{position: relative;height: 3rem;background: #c1824f;text-align: center;line-height: 3rem;color: #FFF;}
+#top h1{margin: 0;font-size: 1.5rem;}
+#top span{display: block;position: absolute;left: 0;top: 0;padding-left: 1rem;}
+#top span a{text-decoration: none;color: #fff;font-size: 1.2rem;}
+
+#content,#search{}
+#content ul{list-style: none;margin: 0;padding: 0;}
+#content li{border-bottom: 1px solid #ccc;margin-bottom: 1rem;}
+#content li a{display: block;text-decoration: none;color: #c1824f;}
+#content .content-img{width: 100%;}
+#content li img{display: block;margin: 0 auto;width: 100%;}
+#content h3{color: #555;}
+#content .ctime{float: right;}
+
+/*搜索*/
+.search-div{padding-bottom: 1rem;}
+.search-div input{color: #c1824f;border: solid 1px #c1824f;font-size: 1.1rem;line-height: 1.1rem;outline:none ;}
+.search-div #search-name{width: 70%;height: 2.5rem;text-indent: .5rem;}
+.search-div #search-btn{width: 6rem;height: 2.8rem; padding: 0;margin-left: 1rem;background: #c1824f;color: #fff;}
+
+/*iframe*/
+#iframe-div{position: absolute;top: 4rem;left: 0;right: 0;bottom: 0;padding: 0 .5rem;}
+iframe{border: none;width: 100%;height: 100%;}
